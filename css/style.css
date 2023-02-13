@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: small;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img{
+    width: 50vw;
+    height: 30vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor{
+    border: solid;    
+    width: 70vw;
+    position: relative;
+    background-color: #EC4899;
+    border: #e8bad3;
+}
+
+.contenedor--1{
+    left: 5%;
+}
+
+.contenedor--1 > dl{
+    text-align: center;
+}
+
+.contenedor--2{
+    left: 25%;
+}
+
+.contenedor--2 > dl{
+    text-align: center;
+}
+
+.contenedor--3{
+    left: 5%;
+}
+
+input{
+    background-color:#e8bad3;
+    border: white;
+}
+
+i{
+    font-size: 30px;
+}
+
+.contenedor--4{
+    text-align: center;
+    left: 25%;
+}
+
+.contenedor--5{
+    text-align: center;
+    left: 15%;
+}
+
+.contenedor--6{
+    text-align: center;
+    left: 15%;
+}
+
+@media screen and (min-width: 375px) {
+    html{
+        font-size: large;
+    }
+    body{
+        background-color: blue;
+    }
+}
